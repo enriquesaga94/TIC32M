@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="CSS/formulario3.css">
+</head>
+<body>
+    <div class="contenedor-formulario">
+        <img src="Imagenes/foto cv.jpeg" alt="Logo" class="logo">
+        <h2>Formulario de Contacto</h2>
+        <form action="#" method="POST">
+            <div class="grupo-formulario fila-flex">
+                <div>
+                    <label for="nombre">Nombre(s)</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre(s)" required>
+                </div>
+                <div>
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" id="apellidos" name="apellidos" placeholder="Escribe tus apellidos" required>
+                </div>
+            </div>
+
+            <div class="grupo-formulario">
+                <label for="direccion">Dirección</label>
+                <input type="text" id="direccion" name="direccion" placeholder="Escribe tu dirección" required>
+            </div>
+
+            <div class="grupo-formulario fila-flex">
+                <div>
+                    <label for="municipio">Municipio</label>
+                    <input type="text" id="municipio" name="municipio" placeholder="Municipio" required>
+                </div>
+                <div>
+                    <label for="estado">Estado</label>
+                    <select id="estado" name="estado" required>
+                        <option value="">Selecciona tu estado</option>
+                        <option value="CDMX">CDMX</option>
+                        <option value="Jalisco">Jalisco</option>
+                        <option value="Nuevo León">Nuevo León</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="cp">C.P.</label>
+                    <input type="text" id="cp" name="cp" placeholder="Código Postal" required>
+                </div>
+            </div>
+
+            <div class="grupo-formulario fila-flex">
+                <div>
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="Escribe tu teléfono" required>
+                </div>
+                <div>
+                    <label for="fecha_nacimiento">Fecha de Nacimiento</label>
+                    <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+                </div>
+            </div>
+
+            <div class="grupo-formulario grupo-checkbox">
+                <input type="checkbox" id="terminos" name="terminos" required>
+                <label for="terminos">Acepto Términos y Condiciones</label>
+            </div>
+
+            <div class="grupo-formulario">
+                <label for="comentarios">Comentarios Adicionales</label>
+                <textarea id="comentarios" name="comentarios" placeholder="Escribe tus comentarios adicionales"></textarea>
+            </div>
+
+            <button type="submit" class="boton-enviar">Remitir</button>
+        </form>
+    </div>
+
+</body>
+</html>

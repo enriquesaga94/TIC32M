@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/formulario.css">
+</head>
+
+<body>
+    <div id="contenedor">
+        <form method="get">
+            <p>
+                <label for="nombre">Nombre</label><br>
+                <input type="text" id="nombre" name="nombre" autofocus required placeholder="ingresa tu nombre"><br>
+
+            </p>
+
+            <p>
+                <label for="apellido paterno">Apellido Paterno</label><br>
+                <input type="text" id="apellido paterno" size="40" required placeholder="ingresa tu apellido"
+                    name="apellido paterno"><br>
+            </p>
+
+            <p>
+                <label for="apellido Materno">Apellido Materno</label><br>
+                <input type="text" id="apellido Materno" size="40" required placeholder="ingresa tu apellido"
+                    name="apellido Materno"><br>
+            </p>
+
+            <p>
+                <label for="estatus">Estatus</label><br>
+                <input type="text" name="estatus" value="activo" readonly title="Este valor es solo lectura"><br>
+            </p>
+
+            <p>
+                <label for="contraseña"> Su contraseña</label><br>
+                <input type="password" id="contraseña" name="contraseña" required
+                    placeholder="Ejemplo: Contraseña123#$%"><br>
+            </p>
+
+            <p>
+                <input type="hidden" name="nip" value="968">
+            </p>
+
+            <p>
+                <label for="navegador"> Navegador favorito</label>
+                <select id="navegador" name="navegador" required>
+                    <option value="chrome"> Google Chrome</option>
+                    <option value="opera"> Opera</option>
+                    <option value="edge"> Edge </option>
+                    <option value="safari"> Safari</option>
+                    <option value="firefox"> Firefox</option>
+                </select><br>
+
+            </p>
+
+            <p>
+                <input type="submit" name="enviar" value="enviar">
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>

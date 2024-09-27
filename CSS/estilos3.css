@@ -1,0 +1,160 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:cursive;
+    background-color: #fff3e6; /* Color suave de fondo */
+}
+
+#contenedor {
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* Barra de navegación */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffb3ba; /* Rosa suave */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+}
+
+#menu li {
+    margin: 0 15px;
+}
+
+#menu li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333; /* Color de texto oscuro */
+}
+
+#menu li a:hover {
+    color: #ff6f61; /* Color de hover llamativo */
+}
+
+#redes ul {
+    display: flex;
+    list-style: none;
+}
+
+#redes ul li {
+    margin: 0 10px;
+    font-size: 18px;
+    color: #333; /* Color de texto oscuro */
+}
+
+#redes ul li i {
+    margin-right: 5px;
+}
+
+/* Imagen de fondo y título */
+header {
+    margin-top: 60px;
+    height: 150%; /* Altura */
+    background: rgb(255, 179, 204) url("../Imagenes/heladeria.jpg"); /* Imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: white;
+    font-size: 3em;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+header h1 {
+    position: relative;
+    z-index: 2; /* Se asegura que el texto esté sobre la imagen */
+}
+
+header:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* Filtro oscuro para mejorar la legibilidad */
+    z-index: 1; /* El filtro está entre la imagen y el texto */
+}
+
+/* Estructura principal */
+main .columnas {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#izq, #centro, #der {
+    background-color: #fff; /* Blanco para los bloques */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#izq, #der {
+    width: 30%;
+}
+
+#centro {
+    width: 40%;
+}
+
+#centro h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #ff6f61; /* Color del título del centro */
+}
+
+#centro p {
+    text-align: justify;
+    color: #555; /* Color de texto para párrafos */
+}
+
+/* Sección de dos columnas */
+.seccion-dos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#texto-izq, #texto-der {
+    width: 48%;
+    background-color: #fff; /* Blanco para los bloques */
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background-color:#ffb3ba; /* Color del pie de página */
+    color: #fff; /* Color de texto en el pie de página */
+}
+
+footer p {
+    margin: 0;
+}

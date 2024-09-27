@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(30, 30, 50);
+    color: rgb(230, 230, 250);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+#contenedor {
+    width: 90%;
+    margin: 5px auto;
+    border: 4px rgba(255, 255, 255, 0.5) solid;
+    border-radius: 10px;
+}
+
+nav {
+    background-color: rgb(75, 75, 120);
+    text-align: center;
+    position: fixed;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 25px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(135, 206, 250);
+    text-decoration: underline;
+}
+
+header {
+    margin-top: 95px;
+    height: 150%;
+    background: rgb(15, 15, 35) url("../Imagenes/galaxia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    line-height: 150px;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    text-align: center;
+    margin: 10px;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+}
+
+p {
+    padding: 10px;
+    text-align: justify;
+    border: 1px rgba(255, 255, 255, 0.3) solid;
+    border-radius: 10px;
+    margin: 0px 25px;
+}
+
+.impar {
+    color: rgb(200, 200, 255);
+    border-top-right-radius: 65px;
+}
+
+.par {
+    color: rgb(220, 220, 220);
+    padding: 0px 50px;
+}
+
+hr {
+    margin: 10px;
+    width: 70%;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#panel {
+    width: 50%;
+    margin: 10px auto;
+    height: 200px;
+    border: 1px rgba(255, 255, 255, 0.3) outset;
+    border-radius: 10px;
+}
+.caja, #mensaje {
+    width: 80%;
+    height: 30px;
+    margin-left: 10%;
+}
+
+#mensaje {
+    height: 30px;
+}
+
+.boton-enviar {
+    width: 50%;
+    margin-top: 10px;
+    background-color: rgb(75, 75, 120);
+    color: white;
+    margin-left: 25%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.altura {
+    height: 80px;
+}

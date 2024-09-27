@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0p;
+}
+
+body { 
+    background-color: #e3f2fd; /* color de fondo suave */
+    color: #333333; /* color de letra más oscuro */
+    font-family: 'Arial', sans-serif; /* cambiar tipo de letra a más legible */
+    font-size: 1em; /* mantener tamaño de letra */
+}
+
+#contenedor {
+    width: 90%;
+    margin: 5px auto;
+    border: 4px #4a4a4a solid; /* contorno gris oscuro */
+    border-radius: 10px;
+}
+
+nav {
+    background-color: #2196f3; /* azul vibrante */
+    text-align: center;
+    position: fixed;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 25px;
+}
+
+nav ul li a {
+    color: #ffffff; /* blanco para contraste */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffeb3b; /* amarillo suave al pasar el mouse */
+    text-decoration: underline;
+}
+
+header {
+    margin-top: 60px;
+    height: 150%;
+    background: silver url("../Imagenes/ARCOIRIS.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    line-height: 150px;
+}
+
+h2, h3, h4, h5 {
+    text-align: center;
+    margin: 10px;
+}
+
+h3 {
+    color: #f44336; /* rojo suave */
+}
+
+p {
+    padding: 10px;
+    text-align: justify;
+    border: 1px #b0bec5 solid; /* borde gris claro */
+    border-radius: 10px;
+    margin: 0px 25px;
+}
+
+.impar {
+    color: #f44336; /* rojo suave */
+    border-top-right-radius: 65px;
+}
+
+.par {
+    color: #8bc34a; /* verde claro */
+    padding: 0px 50px;
+}
